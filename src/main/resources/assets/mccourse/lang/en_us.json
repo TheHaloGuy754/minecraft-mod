@@ -1,3 +1,9 @@
 {
-  "item.mccourse.obsidian_ingot": "Obsidian Ingot"
+  "item.mccourse.obsidian_ingot": "Obsidian Ingot",
+  "item.mccourse.obsidian_apple": "Obsidian Apple",
+
+  "block.mccourse.rough_obsidian": "Rough Obsidian",
+  "block.mccourse.obsidian_ore": "Obsidian Ore",
+
+  "itemGroup.courseTab": "Course Tab"
 }

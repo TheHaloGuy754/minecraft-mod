@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xcx",
+    "xxx"
+  ],
+  "key": {
+    "x":
+    {
+      "item": "mccourse:obsidian_ingot"
+    },
+    "c":
+    {
+      "item": "minecraft:apple"
+    }
+    },
+  "result": {
+    "item": "mccourse:obsidian_apple"
+  }
+}
