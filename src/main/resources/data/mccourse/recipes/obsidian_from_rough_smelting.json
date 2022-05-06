@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mccourse:rough_obsidian"
+  },
+  "result": "minecraft:obsidian",
+  "experience": 2,
+  "cookingtime": 2000
+}

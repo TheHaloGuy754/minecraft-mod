@@ -30,8 +30,7 @@ public class McCourse
 
     public static final String MOD_ID = "mccourse";
 
-    public static final ItemGroup COURSE_TAB = new ItemGroup("courseTab")
-    {
+    public static final ItemGroup COURSE_TAB = new ItemGroup("courseTab") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(ModItems.OBSIDIAN_INGOT.get());

@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
-public class ObsidianApple extends Item
+public class    ObsidianApple extends Item
 {
     public ObsidianApple()
     {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cc",
+    "bx",
+    "bx"
+  ],
+  "key": {
+    "x":
+    {
+      "item": "minecraft:air"
+    },
+    "c":
+    {
+      "item": "mccourse:obsidian_ingot"
+    },
+    "b":
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "mccourse:obsidian_hoe"
+  }
+}
