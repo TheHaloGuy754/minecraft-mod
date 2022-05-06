@@ -21,12 +21,11 @@ public class ModItems
 
     /* TOOLS */
 
-    public static final RegistryObject<Item> OBSIDIAN_SHOVEL =
-            Registration.ITEMS.register("obsidian_shovel",
-                    () -> new ShovelItem(ModItemTier.OBSIDIAN, 0f, 0f,
+    public static final RegistryObject<Item> OBSIDIAN_SWORD =
+            Registration.ITEMS.register("obsidian_sword",
+                    () -> new SwordItem(ModItemTier.OBSIDIAN, 7, -2.25f,
                             new Item.Properties()
-                                    .defaultMaxDamage(600)
-                                    .addToolType(ToolType.SHOVEL,4)
+                                    .defaultMaxDamage(150)
                                     .group(McCourse.COURSE_TAB)));
 
     public static final RegistryObject<Item> OBSIDIAN_AXE =
@@ -37,6 +36,22 @@ public class ModItems
                                     .addToolType(ToolType.AXE,4)
                                     .group(McCourse.COURSE_TAB)));
 
+    public static final RegistryObject<Item> OBSIDIAN_PICKAXE =
+            Registration.ITEMS.register("obsidian_pickaxe",
+                    () -> new PickaxeItem(ModItemTier.OBSIDIAN, 2, 0f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(150)
+                                    .addToolType(ToolType.PICKAXE,4)
+                                    .group(McCourse.COURSE_TAB)));
+
+    public static final RegistryObject<Item> OBSIDIAN_SHOVEL =
+            Registration.ITEMS.register("obsidian_shovel",
+                    () -> new ShovelItem(ModItemTier.OBSIDIAN, 0f, 0f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(600)
+                                    .addToolType(ToolType.SHOVEL,4)
+                                    .group(McCourse.COURSE_TAB)));
+
     public static final RegistryObject<Item> OBSIDIAN_HOE =
             Registration.ITEMS.register("obsidian_hoe",
                     () -> new HoeItem(ModItemTier.OBSIDIAN, 0, 0f,
@@ -45,20 +60,7 @@ public class ModItems
                                     .addToolType(ToolType.HOE,4)
                                     .group(McCourse.COURSE_TAB)));
 
-    public static final RegistryObject<Item> OBSIDIAN_SWORD =
-            Registration.ITEMS.register("obsidian_sword",
-                    () -> new SwordItem(ModItemTier.OBSIDIAN, 7, -2.25f,
-                            new Item.Properties()
-                                    .defaultMaxDamage(150)
-                                    .group(McCourse.COURSE_TAB)));
 
-    public static final RegistryObject<Item> OBSIDIAN_PICKAXE =
-            Registration.ITEMS.register("obsidian_pickaxe",
-                    () -> new PickaxeItem(ModItemTier.OBSIDIAN, 2, 0f,
-                            new Item.Properties()
-                                    .defaultMaxDamage(150)
-                                    .addToolType(ToolType.PICKAXE,4)
-                                    .group(McCourse.COURSE_TAB)));
 
     public static void register() { }
 
